@@ -7,4 +7,4 @@ i_anual = float(input("Ingrese el interes que usara, en porcentaje: "))
 interes = 0.0
 for i in range (Tiempo+1):
   interes = Capital*((1+(i_anual/100))**i)
-  print("Su ganancia en el año " + str(i) + " sera de " + str(interes))
+  print("\nSu dinero total en el año " + str(i) + " sera de $" + str(interes) + ", mientras que su ganancia con respecto a su capital inicial sera de $" + str(interes-Capital))
